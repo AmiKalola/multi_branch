@@ -8,7 +8,7 @@ pipeline {
         }
         stage('git clone'){
             steps{
-                git branch: 'dev', url: 'https://github.com/Sonu0803/demo1.git'
+                git branch: 'dev', url: 'https://github.com/AmiKalola/multi_branch.git'
             }
         }
     }
